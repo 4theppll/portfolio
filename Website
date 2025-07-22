@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salahdiin Ahmed Adan | Student Leader</title>
+    <style>
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        :root {
+            --primary: #d40000;
+            --secondary: #333;
+            --accent: #f8f8f8;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+            color: var(--secondary);
+            line-height: 1.8;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            letter-spacing: -0.5px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--primary);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        a:hover {
+            color: #a00000;
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 25px;
+            border-radius: 8px;
+            background-color: var(--accent);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            text-align: left;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        header {
+            margin-bottom: 40px;
+        }
+        header p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+        strong {
+            color: var(--primary);
+        }
+        .section {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="loading-screen" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1000; transition: opacity 0.5s ease;">
+        <div style="width: 80px; height: 80px; border: 8px solid #f3f3f3; border-top: 8px solid #d40000; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 20px;"></div>
+        <h2 id="loading-text" style="color: #d40000;">⏳ Loading...</h2>
+    </div>
+
+    <main id="main-content" style="opacity: 0; transition: opacity 0.5s ease;">
+    <header>
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQFNaH7x2M52AQ/profile-displayphoto-shrink_200_200/B4EZdyF8D1GwAc-/0/1749965850897?e=1756339200&v=beta&t=Ta2_zx_uYWV_ncLQT7G0-dTrrnRDP6Ks2QQ-i9wsXMY" 
+             alt="Salahdiin Ahmed Adan" 
+             style="border-radius: 50%; width: 180px; height: 180px; object-fit: cover; border: 4px solid var(--primary); box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px;">
+        <h1>Salahdiin Ahmed Adan</h1>
+        <p style="font-size: 1.2rem; color: var(--secondary);">Student Leader | Public Speaker | Community Organizer</p>
+        <div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+            <span>📍 Aurora, Colorado</span>
+            <span>✉️ <a href="mailto:salahdiinadan@gmail.com">salahdiinadan@gmail.com</a></span>
+            <span>📞 (303) 409-8948</span>
+        </div>
+        <a href="#" style="display: inline-block; background-color: var(--primary); color: white; padding: 10px 20px; border-radius: 4px; font-weight: 600; margin-top: 10px;">LinkedIn Profile</a>
+    </header>
+
+    <div class="section">
+        <h2>👋 About Me</h2>
+        <p>I'm a sophomore at Lotus School for Excellence with a strong passion for law, public speaking, leadership, and community organizing. As the Vice President of both the Muslim Student Association and Black Student Association, I strive to advocate, lead, and empower others. I'm a GripTape Challenger and a dedicated student exploring careers in law and healthcare.</p>
+    </div>
+
+    <div class="section">
+        <h2>🎓 Education</h2>
+        <p><strong>Lotus School for Excellence</strong> — Aurora, CO<br>
+        High School Diploma (In Progress) Expected Graduation: 2028</p>
+        <ul>
+            <li>Advanced coursework in mathematics, English, and science</li>
+            <li>Active in student government, clubs, and national competitions</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🌟 Leadership Roles</h2>
+        <p><strong>Vice President, Black Student Association</strong></p>
+        <ul>
+            <li>Co-founded and co-led the creation of BSA at Lotus</li>
+            <li>Organized cultural events, advocacy campaigns, and student engagement programs</li>
+        </ul>
+
+        <p><strong>Vice President & Social Media Manager, Muslim Student Association</strong></p>
+        <ul>
+            <li>Increased club engagement through digital campaigns and community organizing</li>
+            <li>Led initiatives around Ramadan awareness, interfaith education, and more</li>
+        </ul>
+
+        <p><strong>Founder & Lead Tutor, Mathematic Tutoring</strong></p>
+        <ul>
+            <li>Provide personalized online math tutoring</li>
+            <li>Created structured sessions and educational content for middle/high school students</li>
+        </ul>
+
+    </div>
+
+    <div class="section">
+        <h2>🎤 Public Speaking & Debate</h2>
+        <p><strong>Varsity Speech & Debate Competitor</strong></p>
+        <ul>
+            <li>Specialize in Congressional Debate</li>
+            <li>Competed at the 2025 National Congress Qualifying Tournament</li>
+            <li>Strong research, rhetoric, and argumentation skills</li>
+        </ul>
+
+        <p><strong>Model UN & DECA (Upcoming)</strong></p>
+        <ul>
+            <li>Exploring leadership roles and competition entries for 2025–2026</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>💡 Skills</h2>
+        <ul>
+            <li>Public Speaking & Debate</li>
+            <li>Leadership & Team Building</li>
+            <li>Math Tutoring & Curriculum Design</li>
+            <li>Time Management & Productivity</li>
+            <li>Graphic Design (Canva, Instagram)</li>
+            <li>Bilingual: Somali & English</li>
+        </ul>
+    </div>
+    </main>
+
+    <script>
+        const loadingMessages = [
+            "⏳ Assembling leadership skills...",
+            "🚀 Preparing for world domination...",
+            "📚 Organizing student associations...",
+            "💡 Generating bright ideas...",
+            "🎤 Practicing debate speeches...",
+            "🧠 Calculating math problems...",
+            "🤝 Networking with future leaders...",
+            "📈 Optimizing student engagement...",
+            "✨ Polishing public speaking skills...",
+            "🌱 Growing future opportunities..."
+        ];
+        
+        // Set random loading message
+        document.getElementById('loading-text').textContent = 
+            loadingMessages[Math.floor(Math.random() * loadingMessages.length)];
+            
+        setTimeout(() => {
+            document.getElementById('loading-screen').style.transition = 'opacity 1s ease-out';
+            document.getElementById('loading-screen').style.opacity = '0';
+            document.getElementById('main-content').style.opacity = '1';
+            
+            setTimeout(() => {
+                document.getElementById('loading-screen').style.display = 'none';
+            }, 1000);
+        }, 2000);
+    </script>
+</body>
+</html>
